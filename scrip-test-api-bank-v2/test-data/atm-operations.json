@@ -1,0 +1,9 @@
+{
+  "atm_tests": [
+    {"desc": "Small deposit", "type": "deposit", "amount": 100},
+    {"desc": "Large deposit", "type": "deposit", "amount": 10000},
+    {"desc": "Small withdrawal", "type": "withdraw", "amount": 50},
+    {"desc": "Max withdrawal", "type": "withdraw", "amount": 2000},
+    {"desc": "Over limit withdrawal", "type": "withdraw", "amount": 2001, "expect_fail": true}
+  ]
+}
