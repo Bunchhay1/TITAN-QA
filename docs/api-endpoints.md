@@ -30,3 +30,18 @@
 | POST | /api/v2/atm/deposit | Deposit cash |
 | POST | /api/v2/atm/withdraw | Withdraw cash |
 | GET | /api/v2/atm/balance | Check balance |
+
+## Loans
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| GET | /api/v2/loans | List loans |
+| POST | /api/v2/loans/apply | Apply for loan |
+| GET | /api/v2/loans/:id | Get loan detail |
+| POST | /api/v2/loans/:id/repay | Repay loan |
+
+## QR Payment
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | /api/v2/qr/generate | Generate QR code |
+| POST | /api/v2/qr/scan | Process QR payment |
+| GET | /api/v2/qr/:id/status | Check QR status |
