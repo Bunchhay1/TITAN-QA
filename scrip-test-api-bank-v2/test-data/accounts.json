@@ -1,0 +1,18 @@
+{
+  "accounts": [
+    {
+      "id": "acc-001",
+      "userId": "usr-001",
+      "type": "savings",
+      "balance": 10000.00,
+      "currency": "USD"
+    },
+    {
+      "id": "acc-002",
+      "userId": "usr-002",
+      "type": "checking",
+      "balance": 5000.00,
+      "currency": "USD"
+    }
+  ]
+}
