@@ -1,0 +1,7 @@
+{
+  "qr_tests": [
+    {"desc": "Valid QR payment", "amount": 100.00, "currency": "USD"},
+    {"desc": "QR with merchant code", "amount": 50.00, "merchant": "MERC-001"},
+    {"desc": "QR split payment", "amount": 200.00, "split": 2}
+  ]
+}
