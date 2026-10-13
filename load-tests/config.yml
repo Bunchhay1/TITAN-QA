@@ -1,0 +1,20 @@
+# Load test configuration
+base_url: "http://localhost:8080"
+duration: 60s
+vus: 50
+
+scenarios:
+  login:
+    endpoint: /api/v2/auth/login
+    method: POST
+    weight: 20
+
+  balance_check:
+    endpoint: /api/v2/atm/balance
+    method: GET
+    weight: 40
+
+  transfer:
+    endpoint: /api/v2/transactions/transfer
+    method: POST
+    weight: 10
