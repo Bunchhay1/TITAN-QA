@@ -1,0 +1,11 @@
+{
+  "missing_field_tests": [
+    {"endpoint": "/auth/login", "missing": "password"},
+    {"endpoint": "/auth/login", "missing": "email"},
+    {"endpoint": "/transactions/transfer", "missing": "amount"},
+    {"endpoint": "/transactions/transfer", "missing": "toAccount"},
+    {"endpoint": "/accounts", "missing": "type"},
+    {"endpoint": "/loans/apply", "missing": "amount"},
+    {"endpoint": "/loans/apply", "missing": "term"}
+  ]
+}
