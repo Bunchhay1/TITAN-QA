@@ -1,0 +1,9 @@
+{
+  "invalid_formats": [
+    {"field": "email", "value": "not-an-email", "label": "invalid_email"},
+    {"field": "phone", "value": "abc-def", "label": "invalid_phone"},
+    {"field": "amount", "value": "abc", "label": "non_numeric_amount"},
+    {"field": "date", "value": "32-13-2026", "label": "invalid_date"},
+    {"field": "account_id", "value": "!@#$%", "label": "special_chars"}
+  ]
+}
