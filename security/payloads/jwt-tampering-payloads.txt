@@ -1,0 +1,5 @@
+# Algorithm confusion: change RS256 to HS256
+# Empty signature: remove signature part
+# None algorithm: alg:none
+# Claim modification: change role from user to admin
+# Expired token replay: reuse exp claim
