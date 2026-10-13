@@ -1,0 +1,8 @@
+{
+  "privilege_tests": [
+    {"desc": "Access admin endpoint as customer", "path": "/admin/users", "role": "customer"},
+    {"desc": "Modify user role via API", "path": "/users/me", "body": {"role": "admin"}},
+    {"desc": "Access internal endpoint", "path": "/internal/health"},
+    {"desc": "Bypass role check with crafted header", "headers": {"X-Role": "admin"}}
+  ]
+}
