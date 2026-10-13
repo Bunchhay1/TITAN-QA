@@ -1,0 +1,10 @@
+{
+  "boundary_tests": [
+    {"label": "zero_amount", "amount": 0},
+    {"label": "minimum_transfer", "amount": 0.01},
+    {"label": "maximum_transfer", "amount": 9999999.99},
+    {"label": "negative_amount", "amount": -100},
+    {"label": "over_maximum", "amount": 10000000.00},
+    {"label": "large_decimal", "amount": 100.999999}
+  ]
+}
