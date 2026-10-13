@@ -105,3 +105,8 @@ else
   echo -e "\n${RED}${BOLD}⚠️  $TOTAL_FAIL test(s) failed — review above.${NC}\n"
   exit 1
 fi
+
+# End summary
+echo ""
+echo "Edge case test run complete."
+echo "Timestamp: $(date)"
