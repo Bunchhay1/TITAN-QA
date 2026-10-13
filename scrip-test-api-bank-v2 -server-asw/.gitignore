@@ -1,6 +1,4 @@
-# Ignore all folders and files in study
-/*
-
-# Except scrip-test-api-bank-v2 and .gitignore
-!/scrip-test-api-bank-v2/
-!.gitignore
+# macOS
+.DS_Store
+*.log
+results/
