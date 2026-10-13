@@ -283,3 +283,15 @@ No manual setup required between runs.
 ---
 
 *Generated: 2026-10-09 | Titan Bank QA Suite v2*
+
+## Quick Start
+
+```bash
+# Run all AWS tests
+chmod +x run-all.sh
+./run-all.sh
+
+# Run individual test
+chmod +x auth/test-auth.sh
+./auth/test-auth.sh
+```
