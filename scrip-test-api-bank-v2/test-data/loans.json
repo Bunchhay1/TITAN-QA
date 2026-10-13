@@ -1,0 +1,7 @@
+{
+  "loan_scenarios": [
+    {"desc": "Personal loan small", "amount": 1000, "term_months": 12, "type": "personal"},
+    {"desc": "Personal loan large", "amount": 50000, "term_months": 60, "type": "personal"},
+    {"desc": "Business loan", "amount": 100000, "term_months": 120, "type": "business"}
+  ]
+}
