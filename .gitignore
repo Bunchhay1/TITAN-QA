@@ -12,3 +12,4 @@
 # Keep logs directory but not its content
 logs/*
 !logs/.gitkeep
+.github/workflows/*.yml
