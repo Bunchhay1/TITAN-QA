@@ -1,0 +1,8 @@
+{
+  "idor_tests": [
+    {"desc": "Access other user account", "path": "/accounts/acc-002", "own_account": "acc-001"},
+    {"desc": "Access other user transaction", "path": "/transactions/txn-002"},
+    {"desc": "Access admin endpoint as user", "path": "/admin/users"},
+    {"desc": "Modify other user profile", "path": "/users/usr-002", "method": "PUT"}
+  ]
+}
