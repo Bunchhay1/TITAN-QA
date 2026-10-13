@@ -120,3 +120,8 @@ else
   echo -e "\n${RED}${BOLD}🚨 $TOTAL_FAIL vulnerability/vulnerabilities found — fix immediately!${NC}\n"
   exit 1
 fi
+
+# End summary
+echo ""
+echo "Security test run complete."
+echo "Timestamp: $(date)"
