@@ -1,0 +1,8 @@
+{
+  "concurrent_tests": [
+    {"desc": "Double transfer same account", "workers": 2, "amount": 500},
+    {"desc": "Simultaneous deposit withdraw", "workers": 2, "type": "mixed"},
+    {"desc": "Multiple OTP requests", "workers": 5, "endpoint": "/auth/otp"},
+    {"desc": "Race on loan application", "workers": 3, "endpoint": "/loans/apply"}
+  ]
+}
