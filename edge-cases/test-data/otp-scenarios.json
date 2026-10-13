@@ -1,0 +1,8 @@
+{
+  "otp_tests": [
+    {"desc": "Valid OTP within window", "otp": "123456", "expect": 200},
+    {"desc": "Expired OTP", "otp": "000000", "delay_seconds": 310, "expect": 401},
+    {"desc": "Wrong OTP 3 times", "otp": "999999", "attempts": 3, "expect": 429},
+    {"desc": "OTP replay attack", "otp": "123456", "reuse": true, "expect": 401}
+  ]
+}
