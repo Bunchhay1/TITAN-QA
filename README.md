@@ -22,3 +22,22 @@ TITAN-QA/
 | AWS API | auth, accounts, atm, loans, transactions, qr-payment, otp |
 | Security | sql-injection, brute-force, jwt-tampering, idor, privilege-escalation |
 | Edge Cases | boundary-values, missing-fields, invalid-formats, concurrent, expired |
+
+## Quick Start
+
+```bash
+# Setup
+chmod +x setup.sh && ./setup.sh
+
+# Health check
+./health-check.sh
+
+# Run all tests
+make test
+
+# Run specific suite
+make test-local
+make test-aws
+make test-edge
+make test-security
+```
