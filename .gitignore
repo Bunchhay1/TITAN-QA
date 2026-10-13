@@ -3,10 +3,12 @@
 .AppleDouble
 .LSOverride
 
-# Logs
+# Log files
 *.log
-logs/
 
-# Test results
-results/
+# Test result files
 *.html
+
+# Keep logs directory but not its content
+logs/*
+!logs/.gitkeep
