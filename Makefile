@@ -21,3 +21,18 @@ test-security:
 	@echo "Running security tests..."
 	@chmod +x security/run-security.sh
 	@cd security && ./run-security.sh
+
+setup:
+	@chmod +x setup.sh && ./setup.sh
+
+check:
+	@chmod +x check-deps.sh && ./check-deps.sh
+
+health:
+	@chmod +x health-check.sh && ./health-check.sh
+
+report:
+	@chmod +x generate-report.sh && ./generate-report.sh
+
+clean:
+	@chmod +x clean-logs.sh && ./clean-logs.sh
