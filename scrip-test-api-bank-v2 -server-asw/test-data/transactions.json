@@ -1,0 +1,20 @@
+{
+  "transactions": [
+    {
+      "id": "txn-001",
+      "fromAccount": "acc-001",
+      "toAccount": "acc-002",
+      "amount": 100.00,
+      "currency": "USD",
+      "status": "completed"
+    },
+    {
+      "id": "txn-002",
+      "fromAccount": "acc-002",
+      "toAccount": "acc-001",
+      "amount": 50.00,
+      "currency": "USD",
+      "status": "pending"
+    }
+  ]
+}
